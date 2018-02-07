@@ -1,3 +1,13 @@
 header{
   text-align: center;
 }
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center space-around;
+  width: 55%;
+  padding: 2em 3em;
+}
+.quote{
+  text-align: center;
+}
