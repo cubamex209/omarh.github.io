@@ -2,31 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="about.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <title></title>
+  </head>
     <header>
       About Me
     </header>
-  </head>
+
   <main>
-    <section id="slideshow">
-      <hr>
-    <div class="content-wrapper">
-      <div class="carousel">
-        <div class="image-wrapper">
-          <img src="img/projects.jpg" alt="">
-          <img src="img/projects.jpg" alt="">
-          <img src="img/projects.jpg" alt="">
-        </div>
-      </div>
-      <ul class="carousel-indicators">
-        <li data-slide-number="0" class="active"></li>
-        <li data-slide-number="1"></li>
-        <li data-slide-number="2"></li>
-      </ul>
-    </div>
-  </section>
+
     <nav>
       <ul>
     <li><a href="index.html">Home</a></li>
@@ -37,17 +23,66 @@
   </nav>
 </main>
   <body>
-    <p> Few things that i can list about me is that I was born and raised in
-      Tracy,Ca.
-      <ul>
-        <li>I graduated from Tracy High School</li>
-        <img src="#"> Picture of Bulldog
-        <li> Automotive School</li>
-        <img src="#"> picture of car
-        <li>Wine making</li>
-        <img src="#"> wine photos
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class = "carousel-indicators">
+        <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+      </ol>
+
+      <div class = "carousel-inner" role="listbox">
+        <div class = "carousel-item active">
+            <img src="images/tracy.jpg" alt = "High school"  class="img-responsive">
+        </div>
+        <div class = "carousel-item">
+            <img src="images/camera.jpg" alt = "camera"  class="img-responsive">
+        </div>
+        <div class = "carousel-item ">
+            <img src="images/edm.png" alt = "edm"  class="img-responsive">
+        </div>
+      </div>
+    </div>
 
 
 
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+
+
+
+<!-- <div class="container"> -->
+    <!-- <h2>Carousel Example</h2>
+<div id="myCarousel"  class="carousel slide" data-ride="carousel">
+  //indicators
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  // wrapper for slides
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <img src="images/tracy.jpg" alt="High School" class= "width:100%;">
+
+      <div class="item">
+       <img src="images/camera.jpg" alt="camera" class="width:100%;">
+
+        <div class="item">
+          <img src="images/edm.png" alt="edm" class="width:100%;">
+        </div>
+      </div>
+<a class="left control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   </body>
 </html>
