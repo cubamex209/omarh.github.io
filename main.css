@@ -6,9 +6,20 @@ html{
 header{
   text-decoration: none;
   text-align: center;
-  font-size: 25px
+  font-size: 35px
 }
 a{
   text-decoration: none;
-  flex:1;
+  color: white;
+}
+li{
+  display: inline;
+  line-height: 4px;
+  background-color: black;
+  padding: 14px 16px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font:45px;
 }
