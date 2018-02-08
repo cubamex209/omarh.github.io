@@ -35,9 +35,20 @@ li a{
 }
 
 a:hover{
-  background-color:black;
-  color: red;
+  background-color:red;
+  color: white;
 }
 .color{
   position: relative;
+}
+h3{
+  text-shadow: 4px 4px green;
+  font-size: 50px;
+  color:yellow;
+}
+footer{
+  color: yellow;
+  font-size: 55px;
+  text-align: center;
+  border-top: 2px solid black;
 }
