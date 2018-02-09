@@ -1,37 +1,48 @@
 html{
-  background-color: grey;
+  background-color: #180057;;
 }
 
 
 header{
-  background-color: grey;
+  background-color: #180057;
   text-align: center;
   text-transform: capitalize;
-  font-size: 25px;
-  color: yellow;
+  font-size: 45px;
+  color: #545E65;
   font-family: 'Shadows Into Light', cursive;
-
-
-}
 }
 
-a{
+
+/* a{    //home and contact buttons
   text-decoration: none;
   text-align: center;
   line height: 6px;
+  color:#545E65;
+  font-family: 'Shadows Into Light', cursive;
+  margin-left: 65px;
+
+
 }
 
 ul{
   text-align: center;
   line-height: 14px;
+  color:#545E65
+
 }
  nav li {
 display:inline-block;
 flex-direction:column-reverse;
 padding-right: 100px;
 font-size:35px;
+color:#545E65
+
 }
-.carousel-indicators li{
+
+.photo{
+  border-radius: 100%;
+}
+.carousel-indicators li{// toggle buttons on slideshow
     width: 8px;
     height: 8px;
     margin: 3px;
@@ -40,7 +51,7 @@ font-size:35px;
     cursor: pointer;
     border: none;
     border-radius: 30%;
-    background-color:blue;
+    background-color:white;
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
 
 }
@@ -50,9 +61,17 @@ font-size:35px;
 }
 
 .size{
-  background-color: grey;
+  background-color: #180057;;
   margin-left:250px;
+  margin-top: 80px;
 }
 body{
-  background-color: grey;
+  background-color: #180057;
 }
+section{
+  color: white;
+  margin-right: auto;
+}
+p{
+  text-indent: 2em;
+} */
