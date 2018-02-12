@@ -16,7 +16,7 @@ header{
 
 h1{
   text-align: center;
-  color:black;
+  color:white;
 }
 blockquote{
   text-align: center;
@@ -29,6 +29,7 @@ blockquote{
 	line-height: 200%;
 	justify-content: center;
 	display: inline-block;
+  opacity:0.9;
 
 }
 .circle{
@@ -114,13 +115,15 @@ color:#545E65
 
 }
 
-.project{
+#project{
   background:grey;
   text-align: center;
-	padding-bottom:400px;
+	padding-bottom:200px;
 	line-height: 500%;
 	justify-content: center;
   margin-top: 60px;
+  font-size: 35px;
+  opacity:0.9;
 	/* display: inline-block; */
 
 }
@@ -160,6 +163,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+a.hamburger{
+  display: none;
 }
 
 input[type=submit]:hover {
