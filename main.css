@@ -52,6 +52,7 @@ li{
   text-align: center;
   text-transform: uppercase;
   background:green;
+  font-size: 35px;
   /* text-align: center;
   margin:auto 0;
 	padding-bottom:100px;
@@ -85,9 +86,10 @@ color:#545E65
 }
 
 .flags{
-  display:block;
+  display:flex;
   justify-content: center;
-  position: relative;
+  flex-direction: column;
+  
   /* flex-direction: :row; */
 }
 
